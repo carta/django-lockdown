@@ -1,8 +1,5 @@
 import datetime
-try:
-    from unittest.mock import patch
-except ImportError:
-    from mock import patch
+from unittest.mock import patch
 
 from pkg_resources import parse_version
 
