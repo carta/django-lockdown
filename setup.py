@@ -34,7 +34,6 @@ setup(
         'Framework :: Django :: 1.11',
     ],
     zip_safe=False,
-    tests_require=['mock'],
     test_suite='runtests.runtests',
     package_data={'lockdown': ['templates/lockdown/*.html']},
 )
